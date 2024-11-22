@@ -1,8 +1,8 @@
 from django.db import models
 
-class Item(models.Model):
+class Usuario(models.Model):
     nombre = models.CharField(max_length=100)
-    descripcion = models.TextField()
+    correo = models.EmailField(unique=True)
 
     def __str__(self):
         return self.nombre

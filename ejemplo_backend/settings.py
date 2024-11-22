@@ -77,8 +77,9 @@ TEMPLATES = [
 WSGI_APPLICATION = 'ejemplo_backend.wsgi.application'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://admintechflow.com/",  # Cambia al dominio real del frontend
+    "https://admintechflow.com",  # Sin barra al final
 ]
+
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
