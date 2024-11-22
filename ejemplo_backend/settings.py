@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-9b)+-3sv6yep5d8cc7u9b2(sg-)uof0vk653=s83x-ifcj1k3j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['mi-backend-render.onrender.com']  # Cambiar al dominio asignado por Render
+ALLOWED_HOSTS = ['ejemploback.onrender.com']  # Cambiar al dominio asignado por Render
 
 
 # Application definition
